@@ -1,0 +1,47 @@
+.screen {
+    text-align: center;
+    font-family:  'Oswald', sans-serif;
+    color:rgba(106, 156, 156, 0.8); ;
+    
+}
+.screen h3{
+    font-size: 30px;
+}
+.screen p{
+    font-size:20px;
+}
+.Video {
+    display: flex;
+    justify-content: center;
+    margin: 5px
+    
+}
+body {
+    background-color:rgb(50, 56, 67);
+}
+.Video video {
+    box-shadow: 0 0 35px rgba(93, 134, 134, 0.8);
+    border: 3px solid rgba(169, 220, 220, 0.8);;
+    border-radius: 10px;
+}
+.video-buttons{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn {
+     background-color: #2fa082;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.window{
+    width: 70%;
+    height:70% ;
+    margin: 40px auto;       
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #5d8686;
+    box-shadow: 0 0 20px #5d8686;
+}
+
